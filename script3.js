@@ -1,7 +1,8 @@
 // escopo de funções
+var carro = 'Fusca';
 
 function mostrarCarro(){
-    var carro = 'Fusca';
+    
     console.log(carro);
 }
 
