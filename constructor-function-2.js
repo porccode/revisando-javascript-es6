@@ -6,7 +6,8 @@ const Dom = {
         // console.log(this.selector)
     },
     ativar(){
-        const elementoSelecionado = document.querySelector(this.selector);
-        elementoSelecionado.classList.add('ativar');
+        // const elementoSelecionado = document.querySelector(this.selector);
+        // elementoSelecionado.classList.add('ativar');
+        this.element().classList.add('ativar');
     }
 }
