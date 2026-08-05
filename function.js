@@ -1,5 +1,11 @@
-function somar(a, b) {
-    return a + b;
+// function somar(a, b) {
+//     return a + b;
+// }
+
+// console.log(somar(2, 3));
+
+const multiplica = function(a, b) {
+    return a * b;
 }
 
-console.log(somar(2, 3));
+console.log(multiplica(2, 3));
