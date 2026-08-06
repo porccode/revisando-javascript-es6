@@ -1,33 +1,44 @@
-function elaAparece(){
+function elaAparece() {
     return new Promise((resolve) => {
         setTimeout(() => {
             console.log("Ela apareceu na minha frente!");
             resolve();
         }, 1000);
-    })
+    });
 }
 
-function checaHumor() {
+function verificaSeElaAbracou() {
     return new Promise((resolve) => {
         setTimeout(() => {
-            const gosta = Math.random() > 0.5;
-            resolve(gosta);
+            const elaAbracou = Math.random() > 0.5;
+
+            if (elaAbracou) {
+                console.log("Ela me abraçou!");
+            } else {
+                console.log("Ela não me abraçou.");
+            }
+
+            resolve(elaAbracou);
         }, 500);
-    })
+    });
 }
 
-function dizAmor(gosta) {
-    if (gosta) {
-        console.log("EU TE AMO");
-    }else {
+function dizAmor(elaAbracou) {
+    if (elaAbracou) {
         console.log("EU TE AMO MUITO MAIS");
+    } else {
+        console.log("EU TE AMO");
     }
 }
 
 async function encontroComEla() {
     await elaAparece();
-    const elaGosta = await checaHumor();
-    dizAmor(elaGosta);
+
+    const elaMeAbracou = await verificaSeElaAbracou();
+
+    dizAmor(elaMeAbracou);
 }
 
 encontroComEla();
+
+//simulação corrigida
