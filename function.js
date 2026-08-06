@@ -11,4 +11,4 @@
 // console.log(multiplica(2, 3));
 
 const cumprimetar = nome => `Olá ${nome}`;
-console.log(cumprimetar('João'));
+console.log(cumprimetar('João')); 
