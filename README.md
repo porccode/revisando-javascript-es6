@@ -52,5 +52,4 @@ Este repositório reúne exercícios, notas e práticas sobre lógica de program
 ## Referências
 
 - [Documentação MDN JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [Origamid](https://www.origamid.com)
 - [Exercícios de lógica com JavaScript](https://www.w3schools.com/js/js_exercises.asp)

@@ -23,15 +23,15 @@ class CaixaDeBala {
 
 const caixas = [
     new CaixaDeBala('morango', 10, 2.50),
-  new CaixaDeBala('uva', 10, 2.50),
-  new CaixaDeBala('coco', 10, 2.50),
-  new CaixaDeBala('limão', 10, 2.50),
-  new CaixaDeBala('uva verde', 10, 2.50),
-  new CaixaDeBala('tutti-frutti', 10, 2.50),
-  new CaixaDeBala('chocolate', 10, 2.50),
-  new CaixaDeBala('caramelo', 10, 2.50),
-  new CaixaDeBala('manga', 10, 2.50),
-  new CaixaDeBala('menta', 10, 2.50),
+    new CaixaDeBala('uva', 10, 2.50),
+    new CaixaDeBala('coco', 10, 2.50),
+    new CaixaDeBala('limão', 10, 2.50),
+    new CaixaDeBala('uva verde', 10, 2.50),
+    new CaixaDeBala('tutti-frutti', 10, 2.50),
+    new CaixaDeBala('chocolate', 10, 2.50),
+    new CaixaDeBala('caramelo', 10, 2.50),
+    new CaixaDeBala('manga', 10, 2.50),
+    new CaixaDeBala('menta', 10, 2.50),
 ];
 
 caixas[0].descrever();
